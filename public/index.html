@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+    <link rel="stylesheet" src="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <div class="wrapper">
+        <form method="post" action="/register">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" name="name" id="userName" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Email" name="email" id="eMail" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" name="password" id="passWord" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <button type="submit" class="btn" id="sub-btn">Submit</button>
+        </form>
+    </div>
+    <script src="../index.js"></script>
+</body>
+</html>
